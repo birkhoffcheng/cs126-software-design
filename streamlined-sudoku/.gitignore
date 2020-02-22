@@ -1,0 +1,11 @@
+cmake-*
+*.o
+.idea/
+sudoku
+tests
+a.out
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+.vscode/

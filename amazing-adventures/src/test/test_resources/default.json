@@ -1,0 +1,81 @@
+{ 
+	"startingRoom":"Entrance",
+	"endingRoom":"Basement",
+	"rooms":[
+		{
+			"name":"Entrance",
+			"description":"You are at the entrance",
+			"directions":[
+				{
+					"directionName":"Right",
+					"room":"Stairs",
+					"enabled": true,
+					"validKeyNames": [
+						"Lockpick", "Key2"
+					]
+				}
+			],
+			"items":[
+				{
+					"name":"Key2"
+				},
+				{
+					"name":"Teleporter"
+				}
+			]
+		},
+		{
+			"name":"Stairs",
+			"description":"You are on the stairs",
+			"directions":[
+				{
+					"directionName":"Left",
+					"room":"Entrance",
+					"enabled": true,
+					"validKeyNames": [
+						"Lockpick", "Key1"
+					]
+				},
+				{
+					"directionName":"Down",
+					"room":"Basement",
+					"enabled": false,
+					"validKeyNames": [
+						"Lockpick", "Key3"
+					]
+				}
+			],
+			"items":[
+				{
+					"name":"Key3"
+				}
+			]
+		},
+		{
+			"name":"Basement",
+			"description":"You are in the basement",
+			"directions":[
+				{
+					"directionName":"Up",
+					"room":"Stairs",
+					"enabled": true,
+					"validKeyNames": [
+						"Lockpick", "Key2"
+					]
+				}
+			],
+			"items":[
+				{
+					"name":"RaspberryPi"
+				}
+			]
+		}
+	],
+	"player":{
+		"items":[
+			{
+				"name":"Lockpick"
+			}
+		]
+	}
+}

@@ -1,0 +1,649 @@
+{
+    "homeTeam": {
+        "name": "Champaign United",
+        "players": [
+            {
+                "name": "Mercedes Jackson",
+                "age": 24,
+                "jerseyNumber": 13,
+                "position": "Midfielder",
+                "hometown": "Urbana"
+            },
+            {
+                "name": "William Glass",
+                "age": 21,
+                "jerseyNumber": 16,
+                "position": "Midfielder",
+                "hometown": "Champaign"
+            },
+            {
+                "name": "Walter Grulkey",
+                "age": 25,
+                "jerseyNumber": 7,
+                "position": "Midfielder",
+                "hometown": "St. Louis"
+            },
+            {
+                "name": "Dale Rose",
+                "age": 26,
+                "jerseyNumber": 18,
+                "position": "Midfielder",
+                "hometown": "Urbana"
+            },
+            {
+                "name": "Guadalupe Nelson",
+                "age": 23,
+                "jerseyNumber": 26,
+                "position": "Midfielder",
+                "hometown": "St. Louis"
+            },
+            {
+                "name": "John Hankey",
+                "age": 22,
+                "jerseyNumber": 14,
+                "position": "Defender",
+                "hometown": "Champaign"
+            },
+            {
+                "name": "Patricia Jones",
+                "age": 19,
+                "jerseyNumber": 6,
+                "position": "Defender",
+                "hometown": "Bloomington"
+            },
+            {
+                "name": "Chad Sizemore",
+                "age": 26,
+                "jerseyNumber": 27,
+                "position": "Defender",
+                "hometown": "Champaign"
+            },
+            {
+                "name": "Connie Marquez",
+                "age": 28,
+                "jerseyNumber": 8,
+                "position": "Defender",
+                "hometown": "St. Louis"
+            },
+            {
+                "name": "Robert Good",
+                "age": 25,
+                "jerseyNumber": 4,
+                "position": "Attacker",
+                "hometown": "Chicago"
+            },
+            {
+                "name": "Gary Moore",
+                "age": 22,
+                "jerseyNumber": 17,
+                "position": "Goalkeeper",
+                "hometown": "Champaign"
+            }
+        ]
+    },
+    "awayTeam": {
+        "name": "Urbana International",
+        "players": [
+            {
+                "name": "Mary Kohnz",
+                "age": 21,
+                "jerseyNumber": 9,
+                "position": "Midfielder",
+                "hometown": "Urbana"
+            },
+            {
+                "name": "Stevie Patrick",
+                "age": 27,
+                "jerseyNumber": 22,
+                "position": "Midfielder",
+                "hometown": "St. Louis"
+            },
+            {
+                "name": "Scott Smiley",
+                "age": 25,
+                "jerseyNumber": 27,
+                "position": "Midfielder",
+                "hometown": "Mahomet"
+            },
+            {
+                "name": "John Yeiser",
+                "age": 26,
+                "jerseyNumber": 26,
+                "position": "Midfielder",
+                "hometown": "St. Louis"
+            },
+            {
+                "name": "Steven White",
+                "age": 28,
+                "jerseyNumber": 11,
+                "position": "Midfielder",
+                "hometown": "Chicago"
+            },
+            {
+                "name": "Stephen Robertson",
+                "age": 29,
+                "jerseyNumber": 13,
+                "position": "Defender",
+                "hometown": "Champaign"
+            },
+            {
+                "name": "Tina Ocampo",
+                "age": 22,
+                "jerseyNumber": 4,
+                "position": "Defender",
+                "hometown": "Bloomington"
+            },
+            {
+                "name": "Barbara Palmer",
+                "age": 24,
+                "jerseyNumber": 14,
+                "position": "Defender",
+                "hometown": "Bloomington"
+            },
+            {
+                "name": "Malcom Patrick",
+                "age": 19,
+                "jerseyNumber": 10,
+                "position": "Defender",
+                "hometown": "Bloomington"
+            },
+            {
+                "name": "Stephen Bormann",
+                "age": 30,
+                "jerseyNumber": 5,
+                "position": "Attacker",
+                "hometown": "Champaign"
+            },
+            {
+                "name": "David Cole",
+                "age": 20,
+                "jerseyNumber": 1,
+                "position": "Goalkeeper",
+                "hometown": "Bloomington"
+            }
+        ]
+    },
+    "winner": "Urbana International",
+    "goals": [
+        {
+            "team": "Urbana International",
+            "timestamp": 10,
+            "scorer": "Steven White",
+            "assist": null,
+            "passes": [
+                {
+                    "passer": "John Yeiser",
+                    "receiver": "Tina Ocampo"
+                },
+                {
+                    "passer": "Tina Ocampo",
+                    "receiver": "Steven White"
+                }
+            ]
+        },
+        {
+            "team": "Urbana International",
+            "timestamp": 11,
+            "scorer": "Malcom Patrick",
+            "assist": null,
+            "passes": [
+                {
+                    "passer": "Stephen Bormann",
+                    "receiver": "Malcom Patrick"
+                },
+                {
+                    "passer": "Malcom Patrick",
+                    "receiver": "Mary Kohnz"
+                },
+                {
+                    "passer": "Mary Kohnz",
+                    "receiver": "Tina Ocampo"
+                },
+                {
+                    "passer": "Tina Ocampo",
+                    "receiver": "Malcom Patrick"
+                }
+            ]
+        },
+        {
+            "team": "Urbana International",
+            "timestamp": 16,
+            "scorer": "Stephen Bormann",
+            "assist": null,
+            "passes": [
+                {
+                    "passer": "Tina Ocampo",
+                    "receiver": "Scott Smiley"
+                },
+                {
+                    "passer": "Scott Smiley",
+                    "receiver": "Tina Ocampo"
+                },
+                {
+                    "passer": "Tina Ocampo",
+                    "receiver": "Scott Smiley"
+                },
+                {
+                    "passer": "Scott Smiley",
+                    "receiver": "Steven White"
+                },
+                {
+                    "passer": "Steven White",
+                    "receiver": "Tina Ocampo"
+                },
+                {
+                    "passer": "Tina Ocampo",
+                    "receiver": "Stephen Bormann"
+                }
+            ]
+        },
+        {
+            "team": "Champaign United",
+            "timestamp": 22,
+            "scorer": "William Glass",
+            "assist": "Patricia Jones",
+            "passes": [
+                {
+                    "passer": "Guadalupe Nelson",
+                    "receiver": "Patricia Jones"
+                },
+                {
+                    "passer": "Patricia Jones",
+                    "receiver": "Guadalupe Nelson"
+                },
+                {
+                    "passer": "Guadalupe Nelson",
+                    "receiver": "Patricia Jones"
+                },
+                {
+                    "passer": "Patricia Jones",
+                    "receiver": "William Glass"
+                }
+            ]
+        },
+        {
+            "team": "Champaign United",
+            "timestamp": 24,
+            "scorer": "Dale Rose",
+            "assist": "Guadalupe Nelson",
+            "passes": [
+                {
+                    "passer": "Dale Rose",
+                    "receiver": "Guadalupe Nelson"
+                },
+                {
+                    "passer": "Guadalupe Nelson",
+                    "receiver": "Dale Rose"
+                },
+                {
+                    "passer": "Dale Rose",
+                    "receiver": "Guadalupe Nelson"
+                },
+                {
+                    "passer": "Guadalupe Nelson",
+                    "receiver": "Dale Rose"
+                },
+                {
+                    "passer": "Dale Rose",
+                    "receiver": "Guadalupe Nelson"
+                },
+                {
+                    "passer": "Guadalupe Nelson",
+                    "receiver": "Dale Rose"
+                }
+            ]
+        },
+        {
+            "team": "Champaign United",
+            "timestamp": 27,
+            "scorer": "William Glass",
+            "assist": "Guadalupe Nelson",
+            "passes": [
+                {
+                    "passer": "Guadalupe Nelson",
+                    "receiver": "Walter Grulkey"
+                },
+                {
+                    "passer": "Walter Grulkey",
+                    "receiver": "William Glass"
+                },
+                {
+                    "passer": "William Glass",
+                    "receiver": "Guadalupe Nelson"
+                },
+                {
+                    "passer": "Guadalupe Nelson",
+                    "receiver": "Walter Grulkey"
+                },
+                {
+                    "passer": "Walter Grulkey",
+                    "receiver": "Guadalupe Nelson"
+                },
+                {
+                    "passer": "Guadalupe Nelson",
+                    "receiver": "William Glass"
+                }
+            ]
+        },
+        {
+            "team": "Urbana International",
+            "timestamp": 38,
+            "scorer": "John Yeiser",
+            "assist": "Steven White",
+            "passes": [
+                {
+                    "passer": "Tina Ocampo",
+                    "receiver": "Mary Kohnz"
+                },
+                {
+                    "passer": "Mary Kohnz",
+                    "receiver": "Scott Smiley"
+                },
+                {
+                    "passer": "Scott Smiley",
+                    "receiver": "Stephen Robertson"
+                },
+                {
+                    "passer": "Stephen Robertson",
+                    "receiver": "Barbara Palmer"
+                },
+                {
+                    "passer": "Barbara Palmer",
+                    "receiver": "Steven White"
+                },
+                {
+                    "passer": "Steven White",
+                    "receiver": "John Yeiser"
+                }
+            ]
+        },
+        {
+            "team": "Champaign United",
+            "timestamp": 39,
+            "scorer": "John Hankey",
+            "assist": "Chad Sizemore",
+            "passes": [
+                {
+                    "passer": "Mercedes Jackson",
+                    "receiver": "Guadalupe Nelson"
+                },
+                {
+                    "passer": "Guadalupe Nelson",
+                    "receiver": "John Hankey"
+                },
+                {
+                    "passer": "John Hankey",
+                    "receiver": "Mercedes Jackson"
+                },
+                {
+                    "passer": "Mercedes Jackson",
+                    "receiver": "William Glass"
+                },
+                {
+                    "passer": "William Glass",
+                    "receiver": "Chad Sizemore"
+                },
+                {
+                    "passer": "Chad Sizemore",
+                    "receiver": "John Hankey"
+                }
+            ]
+        },
+        {
+            "team": "Champaign United",
+            "timestamp": 44,
+            "scorer": "Connie Marquez",
+            "assist": null,
+            "passes": [
+                {
+                    "passer": "Dale Rose",
+                    "receiver": "Patricia Jones"
+                },
+                {
+                    "passer": "Patricia Jones",
+                    "receiver": "Connie Marquez"
+                }
+            ]
+        },
+        {
+            "team": "Urbana International",
+            "timestamp": 45,
+            "scorer": "Steven White",
+            "assist": "Scott Smiley",
+            "passes": [
+                {
+                    "passer": "Scott Smiley",
+                    "receiver": "Steven White"
+                },
+                {
+                    "passer": "Steven White",
+                    "receiver": "Stevie Patrick"
+                },
+                {
+                    "passer": "Stevie Patrick",
+                    "receiver": "Scott Smiley"
+                },
+                {
+                    "passer": "Scott Smiley",
+                    "receiver": "Steven White"
+                }
+            ]
+        },
+        {
+            "team": "Urbana International",
+            "timestamp": 49,
+            "scorer": "Stevie Patrick",
+            "assist": null,
+            "passes": [
+                {
+                    "passer": "Stevie Patrick",
+                    "receiver": "Steven White"
+                },
+                {
+                    "passer": "Steven White",
+                    "receiver": "Stevie Patrick"
+                },
+                {
+                    "passer": "Stevie Patrick",
+                    "receiver": "Steven White"
+                },
+                {
+                    "passer": "Steven White",
+                    "receiver": "Stevie Patrick"
+                },
+                {
+                    "passer": "Stevie Patrick",
+                    "receiver": "Steven White"
+                },
+                {
+                    "passer": "Steven White",
+                    "receiver": "Stevie Patrick"
+                }
+            ]
+        },
+        {
+            "team": "Champaign United",
+            "timestamp": 54,
+            "scorer": "Walter Grulkey",
+            "assist": "Patricia Jones",
+            "passes": [
+                {
+                    "passer": "Connie Marquez",
+                    "receiver": "Patricia Jones"
+                },
+                {
+                    "passer": "Patricia Jones",
+                    "receiver": "Walter Grulkey"
+                },
+                {
+                    "passer": "Walter Grulkey",
+                    "receiver": "Patricia Jones"
+                },
+                {
+                    "passer": "Patricia Jones",
+                    "receiver": "Mercedes Jackson"
+                },
+                {
+                    "passer": "Mercedes Jackson",
+                    "receiver": "Patricia Jones"
+                },
+                {
+                    "passer": "Patricia Jones",
+                    "receiver": "Walter Grulkey"
+                }
+            ]
+        },
+        {
+            "team": "Champaign United",
+            "timestamp": 57,
+            "scorer": "Dale Rose",
+            "assist": null,
+            "passes": [
+                {
+                    "passer": "John Hankey",
+                    "receiver": "Guadalupe Nelson"
+                },
+                {
+                    "passer": "Guadalupe Nelson",
+                    "receiver": "John Hankey"
+                },
+                {
+                    "passer": "John Hankey",
+                    "receiver": "Dale Rose"
+                }
+            ]
+        },
+        {
+            "team": "Champaign United",
+            "timestamp": 58,
+            "scorer": "Dale Rose",
+            "assist": "Guadalupe Nelson",
+            "passes": [
+                {
+                    "passer": "Dale Rose",
+                    "receiver": "Guadalupe Nelson"
+                },
+                {
+                    "passer": "Guadalupe Nelson",
+                    "receiver": "Patricia Jones"
+                },
+                {
+                    "passer": "Patricia Jones",
+                    "receiver": "Dale Rose"
+                },
+                {
+                    "passer": "Dale Rose",
+                    "receiver": "Patricia Jones"
+                },
+                {
+                    "passer": "Patricia Jones",
+                    "receiver": "Guadalupe Nelson"
+                },
+                {
+                    "passer": "Guadalupe Nelson",
+                    "receiver": "Dale Rose"
+                }
+            ]
+        },
+        {
+            "team": "Urbana International",
+            "timestamp": 63,
+            "scorer": "Stephen Bormann",
+            "assist": "Stephen Robertson",
+            "passes": [
+                {
+                    "passer": "Stephen Bormann",
+                    "receiver": "Malcom Patrick"
+                },
+                {
+                    "passer": "Malcom Patrick",
+                    "receiver": "Stephen Robertson"
+                },
+                {
+                    "passer": "Stephen Robertson",
+                    "receiver": "Stephen Bormann"
+                },
+                {
+                    "passer": "Stephen Bormann",
+                    "receiver": "Stephen Robertson"
+                },
+                {
+                    "passer": "Stephen Robertson",
+                    "receiver": "Stephen Bormann"
+                }
+            ]
+        },
+        {
+            "team": "Urbana International",
+            "timestamp": 68,
+            "scorer": "Stevie Patrick",
+            "assist": "John Yeiser",
+            "passes": [
+                {
+                    "passer": "Stephen Robertson",
+                    "receiver": "John Yeiser"
+                },
+                {
+                    "passer": "John Yeiser",
+                    "receiver": "Stevie Patrick"
+                }
+            ]
+        },
+        {
+            "team": "Urbana International",
+            "timestamp": 77,
+            "scorer": "Mary Kohnz",
+            "assist": null,
+            "passes": [
+                {
+                    "passer": "Barbara Palmer",
+                    "receiver": "Malcom Patrick"
+                },
+                {
+                    "passer": "Malcom Patrick",
+                    "receiver": "Tina Ocampo"
+                },
+                {
+                    "passer": "Tina Ocampo",
+                    "receiver": "Barbara Palmer"
+                },
+                {
+                    "passer": "Barbara Palmer",
+                    "receiver": "Mary Kohnz"
+                }
+            ]
+        },
+        {
+            "team": "Champaign United",
+            "timestamp": 80,
+            "scorer": "Robert Good",
+            "assist": "Mercedes Jackson",
+            "passes": [
+                {
+                    "passer": "Dale Rose",
+                    "receiver": "Mercedes Jackson"
+                },
+                {
+                    "passer": "Mercedes Jackson",
+                    "receiver": "Robert Good"
+                }
+            ]
+        },
+        {
+            "team": "Urbana International",
+            "timestamp": 85,
+            "scorer": "Mary Kohnz",
+            "assist": null,
+            "passes": [
+                {
+                    "passer": "Mary Kohnz",
+                    "receiver": "Scott Smiley"
+                },
+                {
+                    "passer": "Scott Smiley",
+                    "receiver": "Mary Kohnz"
+                }
+            ]
+        }
+    ]
+}

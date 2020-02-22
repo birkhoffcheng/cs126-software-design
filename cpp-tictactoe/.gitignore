@@ -1,0 +1,5 @@
+.idea/
+cmake-*
+*.o
+a.out
+src/tictactoe
