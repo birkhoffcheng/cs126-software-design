@@ -30,7 +30,7 @@ public class Game {
 				scanner.close();
 				return;
 			}
-			String[] input = inputString.split(" ");
+			String[] input = inputString.split("\\s+");
 
 			if (input.length == 1) {
 				if (input[0].equalsIgnoreCase("quit") || input[0].equalsIgnoreCase("exit")) {
