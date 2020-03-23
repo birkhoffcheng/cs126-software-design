@@ -1,13 +1,6 @@
 #include "sudoku.hpp"
 
-Sudoku::Sudoku() {
-	board = (int *)malloc(sizeof(int) * BOARD_LENGTH);
-	memset(board, BLANK, sizeof(int) * BOARD_LENGTH);
-}
-
-Sudoku::~Sudoku() {
-	free(board);
-}
+Sudoku::Sudoku() {}
 
 int Sudoku::digit_at(const int row, const int col) {
 	if (row >= BOARD_SIZE || col >= BOARD_SIZE) {

@@ -1,4 +1,3 @@
-#include <cstdlib>
 #include <cstring>
 #include <iostream>
 #include <utility>
@@ -12,11 +11,10 @@
 #define BLANK 0
 class Sudoku {
 private:
-	int *board;
+	int board[BOARD_LENGTH];
 
 public:
 	Sudoku();
-	~Sudoku();
 	int digit_at(const int row, const int col);
 	void set_digit_at(const int row, const int col, const int number);
 	void setup(std::string initial_string);
